@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width:100%;
+}
+body{
+    background-color:bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+    
+}
+h1{
+    font-size: 3rem;
+}
+
+header>img{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 1rem;
+    width: auto;
+    height:20vh
+    
+    
+}
+nav{
+   
+}
+ul{
+    list-style: none;
+    display:flex;   
+    gap:0.5rem;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+    
+    
+}
+li{
+   display: block;
+   border: 1px solid black;
+   border-radius:1ch;
+   padding: 0.5rem 1rem;
+   flex:0 0 auto;
+   text-align: center;
+   font-size:medium ;
+   padding: 0.5rem;
+   
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    
+}
+article{
+    flex:0 0 auto;
+}
+main img{
+    width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+}
+.service{
+    margin: 2rem;
+    padding-top:.2rem;
+    padding-right:1rem;
+}
+footer{
+    display:flex;
+    place-items: center;
+    background-color: black;
+    color: azure;
+}
+footer div{
+    flex:1;
+    text-align: center;
+    margin:1rem;
+}
+div>img{
+    max-width: 50%;
+}
